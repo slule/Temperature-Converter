@@ -21,7 +21,7 @@ public class NegativeTest {
 	public void test() {
 		TempConverter converter = new TempConverter ();
 		double celsius = -10.0;
-		double expectedFahrenheit = -14.0;
+		double expectedFahrenheit = 14.0;
 		assertEquals(expectedFahrenheit, TempConverter.convertCelsiusToFahrenheit(celsius), 0.0001);
 	}
 
