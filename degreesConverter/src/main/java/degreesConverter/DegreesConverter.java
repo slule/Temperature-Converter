@@ -27,7 +27,7 @@ public class DegreesConverter {
 		
 		double fahrenheit = TempConverter.convertCelsiusToFahrenheit(celsius);
 		
-		System.out.println("Temnperature in" + city + "," + country + ": " + fahrenheit + "°F");	
+		System.out.println("Temperature in " + city + ", " + country + " is: " + fahrenheit + "°F");	
 		
 		scanner.close();
 

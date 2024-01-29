@@ -3,13 +3,11 @@
 * CIS175 <Spring 2024>
 * Jan 28, 2024 
 */
+package degreesConverter;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
-
-import degreesConverter.NegativeTest;
-import degreesConverter.PositiveTest;
 
 
 @RunWith(Suite.class)
